@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jump Rope Training Panamá</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <span class="logo">Jump Rope Training en Panamá</span>
+        <a href="#cta" class="btn-primary">Reserva tu clase</a>
+    </header>
+
+    <section class="hero">
+        <img src="hero.png" alt="Jump Rope Training" class="hero-image" />
+
+        <div class="hero-content">
+            <h1>Entrenamientos de Jump Rope</h1>
+            <p>Quema grasa, mejora tu resistencia y diviértete entrenando.</p>
+            <a href="#cta" class="btn-primary">Empieza hoy</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Beneficios de Jump Rope</h2>
+        <div class="carousel-container">
+            <button class="carousel-btn carousel-btn-left" onclick="moveCarousel(-1)">
+                <img src="left.png" alt="Anterior" />
+            </button>
+            <div class="feature-list">
+                <div class="feature">
+                    <div class="card">
+                        <h3>Alta quema calórica</h3>
+                        <p>El Jump Rope es uno de los ejercicios con mayor gasto calórico por minuto dentro del
+                            entrenamiento cardiovascular.
+                            Diversos estudios equiparan 10 minutos de salto de cuerda con aproximadamente 30 minutos de
+                            trote moderado, siempre que
+                            se mantenga una intensidad adecuada. Esto se debe a que el movimiento involucra múltiples
+                            grupos musculares de manera simultánea: piernas, glúteos, core, hombros, brazos y
+                            antebrazos, lo que incrementa significativamente el consumo energético.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="card">
+                        <h3>Mejora tu coordinación, agilidad y equilibrio</h3>
+                        <p>El salto de cuerda no es solo un ejercicio cardiovascular; es una actividad neuromuscular
+                            altamente
+                            demandante. Cada
+                            salto requiere sincronización precisa entre manos, pies, vista y sistema nervioso central.
+                            Esta
+                            coordinación constante
+                            mejora la propiocepción, es decir, la capacidad del cuerpo para percibir su posición y
+                            movimiento en
+                            el espacio.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="card">
+                        <h3>Fortalecimiento cardiovascular y mejora tu resistencia</h3>
+                        <p>El Jump Rope es un ejercicio altamente efectivo para fortalecer el sistema cardiovascular
+                            y
+                            respiratorio. Al elevar
+                            rápidamente la frecuencia cardíaca y mantenerla en rangos aeróbicos y anaeróbicos
+                            controlados,
+                            el
+                            corazón se adapta
+                            volviéndose más eficiente en el bombeo de sangre, lo que reduce el esfuerzo necesario en
+                            actividades
+                            cotidianas y
+                            deportivas.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="card">
+                        <h3>Versatilidad, bajo costo y facilidad de integración en cualquier entorno</h3>
+                        <p>Uno de los beneficios más diferenciales del Jump Rope es su accesibilidad. La inversión
+                            inicial
+                            es mínima: una cuerda
+                            adecuada y un espacio reducido son suficientes para entrenar. No se requiere gimnasio,
+                            maquinaria costosa ni
+                            desplazamientos, lo que elimina muchas de las barreras habituales para iniciar o mantener
+                            una
+                            rutina de ejercicio.
+                            La versatilidad del Jump Rope permite entrenar en casa, al aire libre, en viajes o incluso
+                            en
+                            sesiones grupales. Además,
+                            se adapta fácilmente a distintos objetivos: pérdida de peso, acondicionamiento
+                            cardiovascular,
+                            mejora atlética o
+                            simplemente mantenimiento de la salud.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn carousel-btn-right" onclick="moveCarousel(1)">
+                <img src="right.png" alt="Siguiente" />
+            </button>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Nuestros Productos</h2>
+
+        <div class="product-cards">
+            <div class="product-card">
+                <div class="product-icon">🏃🏻‍♀️</div>
+                <h3>Entrenamiento Personal</h3>
+                <p>Sesiones personalizadas adaptadas a tu nivel y objetivos. Mejora tu técnica con seguimiento
+                    individual.</p>
+                <a href="#cta" class="btn-secondary">Más información</a>
+            </div>
+
+            <div class="product-card">
+                <div class="product-icon">🪢</div>
+                <h3>Accesorios y Equipos</h3>
+                <p>Cuerdas profesionales, lastres, empuñaduras y todo lo necesario para tu entrenamiento de Jump Rope.
+                </p>
+                <a href="#cta" class="btn-secondary">Ver catálogo</a>
+            </div>
+
+            <div class="product-card">
+                <div class="product-icon">👕</div>
+                <h3>Ropa Deportiva</h3>
+                <p>Indumentaria cómoda y funcional diseñada específicamente para entrenamientos de alta intensidad.</p>
+                <a href="#cta" class="btn-secondary">Explorar</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="videos">
+        <h2>Videos de Entrenamiento</h2>
+        <div class="videos-content">
+            <div class="video-icon">📹</div>
+            <p>Accede a nuestra biblioteca exclusiva de videos con rutinas, técnicas y ejercicios paso a paso. Entrena
+                desde casa con contenido actualizado semanalmente.</p>
+            <div class="video-features">
+                <span class="video-tag">✓ +50 videos disponibles</span>
+                <span class="video-tag">✓ Nuevos contenidos cada semana</span>
+                <span class="video-tag">✓ Para todos los niveles</span>
+            </div>
+            <a href="#cta" class="btn-primary">Acceder a videos</a>
+        </div>
+    </section>
+
+    <section class="levels">
+        <h2>Niveles para todos</h2>
+
+        <div class="level-cards">
+            <div class="card">
+                <h3>Principiante</h3>
+                <img src="basic.png" alt="Expert" />
+                <p>El entrenamiento para principiantes debe centrarse en la técnica y la adaptación progresiva. Es
+                    importante usar una
+                    cuerda ajustada a la estatura, calzado adecuado y una superficie que amortigüe el impacto. Las
+                    sesiones iniciales deben
+                    ser cortas, con saltos básicos, pausas frecuentes y días de descanso entre entrenamientos. El
+                    objetivo no es la
+                    velocidad, sino aprender el ritmo correcto, mantener una postura adecuada y mejorar la coordinación.
+                    La constancia
+                    moderada permitirá fortalecer músculos y articulaciones, reduciendo el riesgo de lesiones y creando
+                    una base sólida.</p>
+            </div>
+            <div class="card">
+                <h3>Intermedio</h3>
+                <img src="medium.png" alt="Expert" />
+                <p>En el nivel intermedio, el foco está en mejorar resistencia y variedad técnica. Se incorporan cambios
+                    de ritmo,
+                    distintos tipos de salto e intervalos más largos. Es recomendable estructurar las sesiones,
+                    alternando intensidades y
+                    complementando con ejercicios de fuerza para core y piernas. El control de la respiración y una
+                    buena recuperación entre
+                    series permiten sostener el rendimiento. Aunque la exigencia aumenta, mantener una técnica correcta
+                    y evitar la
+                    sobrecarga sigue siendo fundamental para progresar de forma segura.</p>
+            </div>
+            <div class="card">
+                <h3>Avanzado</h3>
+                <img src="expert.png" alt="Expert" />
+                <p>El nivel avanzado exige intensidad, precisión y planificación. Se trabajan combinaciones complejas,
+                    saltos dobles y
+                    bloques de alta intensidad. La estructura del entrenamiento, el control del volumen semanal y la
+                    recuperación son claves
+                    para evitar lesiones. El uso de cuerdas específicas, calentamientos completos y trabajo de movilidad
+                    es indispensable.
+                    En esta etapa, el objetivo es optimizar el movimiento, maximizar el rendimiento y mantener un
+                    progreso sostenible a
+                    largo plazo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="coach">
+        <img src="coach.png" alt="Coach Jump Rope" />
+        <div>
+            <h2>Tu Coach</h2>
+            <p>
+                Coach certificada en entrenamiento funcional y Jump Rope, con más de
+                5 años ayudando a personas a transformar su cuerpo y energía.
+            </p>
+            <ul>
+                <li>✔ Certificación internacional</li>
+                <li>✔ +500 alumnos entrenados</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Lo que dicen mis alumnos</h2>
+        <blockquote>
+            “Nunca pensé que entrenar con cuerda fuera tan efectivo y divertido.”
+        </blockquote>
+    </section>
+
+    <section id="cta" class="final-cta">
+        <h2>¿Listo para empezar?</h2>
+        <button class="btn-primary" onclick="startCheckout()">Reservar sesión</button>
+    </section>
+
+    <footer class="footer">
+        © 2025 Jump Rope Coach
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
